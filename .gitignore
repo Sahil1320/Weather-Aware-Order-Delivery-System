@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Application logs (keep logs folder, ignore generated log files)
+logs/*.log
+!logs/.gitkeep
+

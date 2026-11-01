@@ -1,0 +1,42 @@
+[
+  {
+    "order_id": "1001",
+    "customer": "Alice Smith",
+    "city": "New York",
+    "status": "Pending",
+    "weather_condition": "Clouds",
+    "weather_description": "broken clouds",
+    "temperature_c": 5.66,
+    "last_checked_at": "2026-11-01T12:59:37.483574+00:00"
+  },
+  {
+    "order_id": "1002",
+    "customer": "Bob Jones",
+    "city": "Mumbai",
+    "status": "Pending",
+    "weather_condition": "Clouds",
+    "weather_description": "scattered clouds",
+    "temperature_c": 29.21,
+    "last_checked_at": "2026-11-01T12:59:37.483574+00:00"
+  },
+  {
+    "order_id": "1003",
+    "customer": "Charlie Green",
+    "city": "London",
+    "status": "Pending",
+    "weather_condition": "Clouds",
+    "weather_description": "overcast clouds",
+    "temperature_c": 10.73,
+    "last_checked_at": "2026-11-01T12:59:37.483574+00:00"
+  },
+  {
+    "order_id": "1004",
+    "customer": "InvalidCity123",
+    "city": "InvalidCity123",
+    "status": "Pending",
+    "weather_condition": null,
+    "weather_description": null,
+    "weather_error": "City 'InvalidCity123' not found (HTTP 404 - Invalid City).",
+    "last_checked_at": "2026-11-01T12:59:37.483574+00:00"
+  }
+]
